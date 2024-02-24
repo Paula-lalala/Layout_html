@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+    background: rgba(225,255,255,0);
+    font-weight: normal; 
+    font-family: "Anta", sans-serif; 
+}
+
+.headerContent{
+    width:calc(100VW-32px);
+    height: 100px;
+    padding-inline: 16px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 4px 5px 5px rgba(0, 0, 0, 0.724);
+}
+
+.headerContent .titulo{
+    font-size: 34px;
+    text-transform: uppercase;
+}
